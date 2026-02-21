@@ -1,0 +1,182 @@
+export const WEEK_THEMES = [
+  {
+    day: 0,
+    name: "周日",
+    theme: "稀奇古怪日",
+    emoji: "🌀",
+    color: "from-pink-500/20 to-purple-600/20",
+    borderColor: "border-pink-500/20",
+    description: "记录突发灵感、奇思妙想",
+  },
+  {
+    day: 1,
+    name: "周一",
+    theme: "新技能日",
+    emoji: "⚡",
+    color: "from-amber-500/20 to-orange-600/20",
+    borderColor: "border-amber-500/20",
+    description: "学习一个新技能或工具",
+  },
+  {
+    day: 2,
+    name: "周二",
+    theme: "Gap日",
+    emoji: "🌊",
+    color: "from-cyan-500/20 to-blue-600/20",
+    borderColor: "border-cyan-500/20",
+    description: "放松充电，调整节奏",
+  },
+  {
+    day: 3,
+    name: "周三",
+    theme: "体育日",
+    emoji: "⚽",
+    color: "from-green-500/20 to-emerald-600/20",
+    borderColor: "border-green-500/20",
+    description: "运动健身，强健体魄",
+  },
+  {
+    day: 4,
+    name: "周四",
+    theme: "学习日",
+    emoji: "📚",
+    color: "from-violet-500/20 to-indigo-600/20",
+    borderColor: "border-violet-500/20",
+    description: "硕博申请攻坚·全力冲刺",
+  },
+  {
+    day: 5,
+    name: "周五",
+    theme: "电影日",
+    emoji: "🎬",
+    color: "from-rose-500/20 to-red-600/20",
+    borderColor: "border-rose-500/20",
+    description: "看一部好电影，放松心灵",
+  },
+  {
+    day: 6,
+    name: "周六",
+    theme: "进城日",
+    emoji: "🏙️",
+    color: "from-teal-500/20 to-cyan-600/20",
+    borderColor: "border-teal-500/20",
+    description: "出门探索，接触真实世界",
+  },
+] as const;
+
+export const DEFAULT_COURSES = [
+  {
+    id: "c1",
+    day: 1,
+    time: "上午",
+    name: "摄影",
+    color: "#f59e0b",
+  },
+  {
+    id: "c2",
+    day: 1,
+    time: "下午",
+    name: "新媒体",
+    color: "#f97316",
+  },
+  {
+    id: "c3",
+    day: 2,
+    time: "下午",
+    name: "自然辩证法",
+    color: "#06b6d4",
+  },
+  {
+    id: "c4",
+    day: 2,
+    time: "晚上",
+    name: "艺术传播",
+    color: "#3b82f6",
+  },
+  {
+    id: "c5",
+    day: 3,
+    time: "下午",
+    name: "新媒体+科学传播",
+    color: "#22c55e",
+  },
+  {
+    id: "c6",
+    day: 3,
+    time: "晚上",
+    name: "足球",
+    color: "#10b981",
+  },
+  {
+    id: "c7",
+    day: 5,
+    time: "下午",
+    name: "健康传播",
+    color: "#f43f5e",
+  },
+];
+
+export const DEFAULT_DAILY_TASKS = [
+  { id: "t1", name: "英语听力（播客248）", emoji: "🎧", category: "english" },
+  { id: "t2", name: "英语阅读（1页）", emoji: "📖", category: "english" },
+  { id: "t3", name: "英语口语/作文", emoji: "✍️", category: "english" },
+  {
+    id: "t4",
+    name: "文献阅读（星际社会学1篇）",
+    emoji: "🔭",
+    category: "research",
+  },
+  {
+    id: "t5",
+    name: "文献阅读（传播学1篇）",
+    emoji: "📡",
+    category: "research",
+  },
+  {
+    id: "t6",
+    name: "数学·线性代数（1讲）",
+    emoji: "📐",
+    category: "math",
+  },
+  {
+    id: "t7",
+    name: "数学·高等数学（1讲）",
+    emoji: "∫",
+    category: "math",
+  },
+  { id: "t8", name: "健身30分钟", emoji: "💪", category: "fitness" },
+];
+
+export const COSMIC_QUOTES = [
+  "在宇宙的尺度上，你的焦虑不过是一粒星尘的叹息。peace ✨",
+  "银河系有4000亿颗恒星，但今天你只需要完成眼前这一小步。",
+  "地球在以每秒30公里的速度绕太阳运转，你已经在前进了。",
+  "哈勃望远镜看到的最远星光，走了130亿年才到地球。你有的是时间。",
+  "宇宙从不着急，它用了138亿年才有了今天。放慢脚步，peace。",
+  "你和远方的星星由相同的原子构成。你本身就是奇迹。",
+  "即使是最微小的恒星，也在默默发光。你也一样。peace ✨",
+  "暗物质占宇宙的27%，它虽然看不见，但支撑着一切。你的努力也是。",
+  "超新星爆发前，恒星经历了漫长的沉默。积蓄力量的你，正在发光前夕。",
+  "土星的环由无数碎片组成，每一块都不完美，但合在一起美到窒息。peace ✨",
+  "在所有可能的宇宙中，你选择了这一个。好好感受它。",
+  "宇宙膨胀的速度在加快，但你不需要。保持你的节奏就好。",
+  "光年是距离单位，不是时间。别着急，你已经走了很远了。peace ✨",
+  "即使NASA的火箭也需要倒计时。给自己准备的时间。",
+  "仙女座星系在向我们靠近，美好的事情也在向你靠近。peace ✨",
+];
+
+export const MILESTONES = [
+  { id: "m1", title: "确定目标院校和导师", done: false },
+  { id: "m2", title: "联系意向导师，发邮件", done: false },
+  { id: "m3", title: "写个人陈述初稿", done: false },
+  { id: "m4", title: "写研究计划初稿", done: false },
+  { id: "m5", title: "准备推荐信（2-3封）", done: false },
+  { id: "m6", title: "整理成绩单和证书", done: false },
+  { id: "m7", title: "完善个人陈述终稿", done: false },
+  { id: "m8", title: "完善研究计划终稿", done: false },
+  { id: "m9", title: "在线提交申请材料", done: false },
+  { id: "m10", title: "准备面试（模拟练习）", done: false },
+];
+
+// 硕博连读申请截止日期（假设2026年9月1日）
+export const DEADLINE = new Date("2026-09-01T00:00:00");

@@ -1,0 +1,28 @@
+{
+  "name": "星际计划舱 - Interstellar Plan Pod",
+  "short_name": "星际计划舱",
+  "description": "你的星际学习计划中心 — 向着硕博连读的目标，每天前进一小步。peace ✨",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060612",
+  "theme_color": "#060612",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "education"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
