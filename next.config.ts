@@ -1,24 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
   reactStrictMode: true,
-  // PWA headers
-  async headers() {
-    return [
-      {
-        source: "/sw.js",
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=0, must-revalidate",
-          },
-          {
-            key: "Service-Worker-Allowed",
-            value: "/",
-          },
-        ],
-      },
-    ];
+  basePath: "/interstellar-plan-pod",
+  images: {
+    unoptimized: true,
   },
 };
 
