@@ -11,26 +11,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/week/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/week/page.js"
-    ],
-    "/progress/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/progress/page.js"
-    ],
-    "/habits/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/habits/page.js"
-    ],
     "/settings/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
